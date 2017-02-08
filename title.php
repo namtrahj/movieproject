@@ -15,5 +15,7 @@ if (empty($title)){
 	<input type="text" name="title" value=<?php echo $title; ?>><br>
 	Enter year:
 	<input type="text" name="year"><br>
+	Enter rating:
+	<input type="number" step="0.5" min="0.5" max="10" name="rating"><br>
 	<input type="submit" value="Submit">
 </form>
