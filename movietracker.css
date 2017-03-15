@@ -1,0 +1,43 @@
+table {
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: separate;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+th, td {
+	padding: 7px;
+}
+
+th {
+    background-color: #316abf;
+    color: #e8ebef;
+}
+
+td {
+	text-align: center;
+	color: black;
+}
+
+tr:nth-child(even) {background-color: #a4c5f2}
+tr:nth-child(odd) {background-color: #1e94d8}
+
+a {
+	color: #e8ebef;
+}	
+
+body {
+	text-align: center;
+	background-image: url('Movies.jpg');
+	background-size: 100%;
+	color: #e8ebef;
+}	
+
+h1 {
+	font-size: 50px;
+	border: 5px solid black;
+	background-color: #316abf;
+}
